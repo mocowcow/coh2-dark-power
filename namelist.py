@@ -4,7 +4,7 @@ alias_map = {}
 
 
 def load_namelist_from_file():
-    with open('./blacklist/blacklist.txt', 'r', encoding='utf-8') as f:
+    with open('./lists/blacklist.txt', 'r', encoding='utf-8') as f:
         lines = f.read().splitlines()
         for i in range(len(lines)//2):
             id = lines[i*2]
