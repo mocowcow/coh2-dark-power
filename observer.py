@@ -3,11 +3,21 @@ import live_game
 
 
 def check_players():
-    pass
+    players = live_game.get_in_game_players()
+    res = []
+    for steam_id, race_id in players:
+        if steam_id in id_list:
+            alias = mp[steam_id]
+            res.append([alias, race_id])
+    return res
 
 
 def check_teams():
     pass
+
+
+id_list = namelist.get_list()
+mp = namelist.get_name_map()
 
 
 if __name__ == '__main__':
@@ -18,9 +28,9 @@ if __name__ == '__main__':
         print('------------')
         try:
             if ip == '1':
-                check_players()
+                print(check_players())
             elif ip == '2':
-                check_teams()
+                print(check_teams())
             else:
                 break
         except Exception as e:
