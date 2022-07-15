@@ -1,5 +1,6 @@
 import requests
 import json
+from collections import defaultdict
 
 
 # race_id
@@ -10,7 +11,21 @@ import json
 # 4=uk
 
 def get_in_game_teams():
-    pass
+    games = get_live_games()
+    res = []
+    # group by rank_id
+    for g in games:
+        d = defaultdict(list)
+        for p in g['players']:
+            steam_id = p['player_profile']['steamid']
+            race_id = p['rece_id']
+            rank_id = p["unknown3"]
+            d[rank_id].append([steam_id, race_id])
+    # frequency greater than 1 means team
+    for players in d.values():
+        if len(players) > 1:
+            res.append(players)
+    return res
 
 
 def get_in_game_players():
