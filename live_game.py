@@ -14,7 +14,14 @@ def get_in_game_teams():
 
 
 def get_in_game_players():
-    pass
+    games = get_live_games()
+    res = []
+    for g in games:
+        for p in g['players']:
+            steam_id = p['player_profile']['steamid']
+            race_id = p['rece_id']
+            res.add([steam_id, race_id])
+    return res
 
 
 def get_live_games():
