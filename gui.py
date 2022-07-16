@@ -15,7 +15,8 @@ def query_players():
             ss.append(s)
         res = '\n'.join(ss)
     except Exception as e:
-        res = e.args
+        args = [_(x) for x in e.args]
+        res = '\n'.join(args)
     update_text(res)
 
 
@@ -29,7 +30,8 @@ def query_teams():
             ss.append(s)
         res = '\n'.join(ss)
     except Exception as e:
-        res = e.args
+        args = [_(x) for x in e.args]
+        res = '\n'.join(args)
     update_text(res)
 
 
