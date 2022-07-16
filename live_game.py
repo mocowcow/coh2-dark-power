@@ -19,12 +19,12 @@ def get_in_game_teams():
         for p in g['players']:
             steam_id = p['player_profile']['steamid']
             race_id = p['race_id']
-            rank_id = p["unknown3"]
+            rank_id = p['unknown3']
             d[rank_id].append([steam_id, race_id])
-    # frequency greater than 1 means team
-    for players in d.values():
-        if len(players) > 1:
-            res.append(players)
+        # frequency greater than 1 means team
+        for players in d.values():
+            if len(players) > 1:
+                res.append(players)
     return res
 
 
