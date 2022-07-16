@@ -9,9 +9,9 @@ def query_players():
     print('query_players')
     try:
         players = observer.check_players()
-        ss = ['list of players', '']
+        ss = [_('list of players'), '']
         for alias, race in players:
-            s = f'{alias},{race}'
+            s = f'{alias},{_(race)}'
             ss.append(s)
         res = '\n'.join(ss)
     except Exception as e:
@@ -23,9 +23,9 @@ def query_teams():
     print('query_teams')
     try:
         teams = observer.check_teams()
-        ss = ['list of teams', '']
+        ss = [_('list of teams'), '']
         for team_name, team_side, ppl in teams:
-            s = f'{team_name},{team_side},{ppl}'
+            s = f'{team_name},{_(team_side)},{_(ppl)}'
             ss.append(s)
         res = '\n'.join(ss)
     except Exception as e:
@@ -43,6 +43,11 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 language = config['lang']['language']
 
+# translate
+lang = gettext.translation('gui', 'locales', languages=[
+                           language], fallback=True)
+_ = lang.gettext
+
 # build window
 root = tk.Tk()
 root.title('COH2 DARK POWER')
@@ -55,8 +60,8 @@ btn_frame.pack()
 text_frame.pack()
 
 # build bottom frame
-btn1 = tk.Button(btn_frame, text='query players', command=query_players)
-btn2 = tk.Button(btn_frame, text='query teams', command=query_teams)
+btn1 = tk.Button(btn_frame, text=_('query players'), command=query_players)
+btn2 = tk.Button(btn_frame, text=_('query teams'), command=query_teams)
 btn1.grid(row=0, column=0)
 btn2.grid(row=0, column=1)
 
