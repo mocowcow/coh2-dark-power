@@ -23,9 +23,9 @@ def check_teams():
                 valid_id.append(mp[steam_id])
         if valid_id:
             team_name = ' & '.join(valid_id)
-            team_side= side[race_id]
-            ppl = len(players)
-            res.append([team_name, team_side,ppl])
+            team_side = side[race_id]
+            ppl = f'team of {len(players)}'
+            res.append([team_name, team_side, ppl])
     return res
 
 
