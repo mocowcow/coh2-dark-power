@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-07-16 15:21+0800\n"
+"PO-Revision-Date: 2022-07-16 15:57+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.1\n"
+
+msgid "list of players"
+msgstr "lista graczy"
+
+msgid "list of teams"
+msgstr "lista zorganizowanych drużyn"
+
+msgid "query players"
+msgstr "gracz w kolejce"
+
+msgid "query teams"
+msgstr "gracz w zorganizowanej drużynie"
+
+msgid "ostheer"
+msgstr "Wechrmacht"
+
+msgid "soviet"
+msgstr "Sowieci"
+
+msgid "okw"
+msgstr "OKW"
+
+msgid "usf"
+msgstr "Amerykanie"
+
+msgid "british"
+msgstr "Brytyjczycy"
+
+msgid "AXIS"
+msgstr "niemcy"
+
+msgid "ALLIES"
+msgstr "alianci"
+
+msgid "team of 2"
+msgstr "drużyna w 2"
+
+msgid "team of 3"
+msgstr "drużyna w 3"
+
+msgid "team of 4"
+msgstr "drużyna w 4"
