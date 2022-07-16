@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-07-16 16:31+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp950\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.1\n"
+
+msgid "list of players"
+msgstr ""
+
+msgid "list of teams"
+msgstr ""
+
+msgid "query players"
+msgstr ""
+
+msgid "query teams"
+msgstr ""
+
+msgid "ostheer"
+msgstr ""
+
+msgid "soviet"
+msgstr ""
+
+msgid "okw"
+msgstr ""
+
+msgid "usf"
+msgstr ""
+
+msgid "british"
+msgstr ""
+
+msgid "AXIS"
+msgstr ""
+
+msgid "ALLIES"
+msgstr ""
+
+msgid "team of 2"
+msgstr ""
+
+msgid "team of 3"
+msgstr ""
+
+msgid "team of 4"
+msgstr ""
+
+msgid "failed to fetch data"
+msgstr ""
