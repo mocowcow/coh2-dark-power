@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-07-16 16:31+0800\n"
+"PO-Revision-Date: 2022-07-17 23:57+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.1\n"
+
+msgid "list of players"
+msgstr "玩家名单"
+
+msgid "list of teams"
+msgstr "黑车名单"
+
+msgid "query players"
+msgstr "查玩家"
+
+msgid "query teams"
+msgstr "查黑车"
+
+msgid "ostheer"
+msgstr "东德"
+
+msgid "soviet"
+msgstr "苏联"
+
+msgid "okw"
+msgstr "西德"
+
+msgid "usf"
+msgstr "美军"
+
+msgid "british"
+msgstr "英军"
+
+msgid "AXIS"
+msgstr "轴心"
+
+msgid "ALLIES"
+msgstr "盟军"
+
+msgid "team of 2"
+msgstr "2黑"
+
+msgid "team of 3"
+msgstr "3黑"
+
+msgid "team of 4"
+msgstr "4黑"
+
+msgid "failed to fetch data"
+msgstr "网路错误，捞不到资料"
