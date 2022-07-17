@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-07-16 16:31+0800\n"
+"PO-Revision-Date: 2022-07-18 00:16+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: jp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.1\n"
+
+msgid "list of players"
+msgstr "プレイヤーリスト"
+
+msgid "list of teams"
+msgstr "チームリスト"
+
+msgid "query players"
+msgstr "プレーヤーを検索する"
+
+msgid "query teams"
+msgstr "チームを検索する"
+
+msgid "ostheer"
+msgstr "国防"
+
+msgid "soviet"
+msgstr "ソ連"
+
+msgid "okw"
+msgstr "OKW"
+
+msgid "usf"
+msgstr "アメリカ"
+
+msgid "british"
+msgstr "イギリス"
+
+msgid "AXIS"
+msgstr "枢軸"
+
+msgid "ALLIES"
+msgstr "連合"
+
+msgid "team of 2"
+msgstr "二人チーム"
+
+msgid "team of 3"
+msgstr "三人チーム"
+
+msgid "team of 4"
+msgstr "四人チーム"
+
+msgid "failed to fetch data"
+msgstr "ネットサーバー障害が発生した"
