@@ -1,6 +1,6 @@
 ![dark.jpg](https://github.com/mocowcow/coh2-dark-power/blob/master/asssets/img/dark.jpg?raw=true)
 # COH2 Dark Power
-**COH2 Dark Power** is an application that can observe whether specific players are currently in game, based on [coh2stats](https://coh2stats.com/) Live Games API.
+**COH2 Dark Power** is an application that can observe whether specific players are currently in game(4v4 mode only), based on [coh2stats](https://coh2stats.com/) Live Games API.
 
 Supported languages:  
 - English
