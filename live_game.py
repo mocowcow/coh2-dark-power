@@ -17,6 +17,8 @@ def get_in_game_teams():
     for g in games:
         d = defaultdict(list)
         for p in g['players']:
+            if 'player_profile' not in p:
+                continue
             steam_id = p['player_profile']['steamid']
             race_id = p['race_id']
             rank_id = p['unknown3']
@@ -33,6 +35,8 @@ def get_in_game_players():
     res = []
     for g in games:
         for p in g['players']:
+            if 'player_profile' not in p:
+                continue
             steam_id = p['player_profile']['steamid']
             race_id = p['race_id']
             res.append([steam_id, race_id])
