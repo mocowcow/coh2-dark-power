@@ -1,5 +1,5 @@
-import namelist
-import live_game
+from . import namelist
+from . import live_game
 
 
 def check_players():
@@ -45,21 +45,3 @@ side = {
     3: 'ALLIES',
     4: 'ALLIES'
 }
-
-
-if __name__ == '__main__':
-    while True:
-        print('1 check certain players')
-        print('2 check certain teams')
-        ip = input()
-        print('------------')
-        try:
-            if ip == '1':
-                print(check_players())
-            elif ip == '2':
-                print(check_teams())
-            else:
-                break
-        except Exception as e:
-            print(e)
-        print('------------')

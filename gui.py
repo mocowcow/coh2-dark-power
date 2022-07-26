@@ -2,7 +2,7 @@ import webbrowser
 import tkinter as tk
 import configparser
 import gettext
-import observer
+from package import observer
 
 
 def query_players():
